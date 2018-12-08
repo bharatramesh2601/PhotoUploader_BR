@@ -1,0 +1,24 @@
+{
+  "name": "photouploader_br",
+  "version": "1.0.0",
+  "description": "Photo uploader App",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharatramesh2601/PhotoUploader_BR.git"
+  },
+  "author": "Bharat Ramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharatramesh2601/PhotoUploader_BR/issues"
+  },
+  "homepage": "https://github.com/bharatramesh2601/PhotoUploader_BR#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}
