@@ -20,3 +20,6 @@ Photo uploader app
 <p>Using NodeJS for your API. (Our primary web API is in NodeJS)</p><br>
 <p>A drag-and-drop interface in addition to the file-browsing interface.</p><br>
 <p>Automatic thumbnail generation</p>
+
+<br>
+<p>Also added another view service and couldn't complete it</p>
