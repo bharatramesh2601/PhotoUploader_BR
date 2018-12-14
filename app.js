@@ -18,7 +18,7 @@ const upload = multer({
   fileFilter: function(req, file, cb){
     checkFileType(file, cb);
   }
-}).single('myImage');
+}).array('myImage', 20);
 
 //Init View
 
@@ -60,7 +60,7 @@ app.post('/upload', (req, res) => {
     } else {
       if(req.file == undefined){
         res.render('index', {
-          msg: 'Error: No File Selected!'
+          msg: 'Images uploaded'
         });
       } else {
         res.render('index', {
